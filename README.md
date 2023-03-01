@@ -4,10 +4,15 @@ A Streamlit simple component to display [ApexChart](https://apexcharts.com/).
 
 ![](./img/demo.png)
 
+## Install
+
+```shell script
+pip install streamlit_apexjs
+```
+
 ## Usage
 ```python
-from streamlit_apexcharts import st_apexcharts
-
+from streamlit_apexjs import st_apexcharts
 options = {
     "chart": {
         "toolbar": {

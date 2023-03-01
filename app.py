@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit_apexcharts import st_apexcharts
+from streamlit_apexjs import st_apexcharts
 
 options = {
     "chart": {
@@ -62,10 +62,10 @@ with st.container():
     col1, col2 = st.columns(2)
 
     with col1:
-        st_apexcharts(options, series, 'donut', '100%')
+        st_apexcharts(options, series, 'donut', '100%', 'Title 1')
 
     with col2:
-        st_apexcharts(options2, series2, 'bar', '100%')
+        st_apexcharts(options2, series2, 'bar', '100%', 'Title 2')
 
 with st.container():
-    st_apexcharts(options3, series2, 'line', '700')
+    st_apexcharts(options3, series2, 'line', '700', 'Title 3')

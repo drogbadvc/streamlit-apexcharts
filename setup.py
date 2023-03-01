@@ -14,14 +14,15 @@ def readme() -> str:
 
 
 setuptools.setup(
-    name="streamlit_apexcharts",
-    version="0.0.1",
+    name="streamlit_apexjs",
+    version="0.0.2",
     author="Andell",
     author_email="drogadvc@gmail.com",
     description="streamlit_apexcharts React component for Streamlit",
     packages=setuptools.find_packages(),
     long_description=readme(),
     long_description_content_type="text/markdown",
+    url="https://github.com/drogbadvc/streamlit-apexcharts",
     include_package_data=True,
     classifiers=[],
     python_requires=">=3.7",

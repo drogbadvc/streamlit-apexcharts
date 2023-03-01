@@ -27,6 +27,7 @@ interface ApexArgs {
         | "polarArea"
         | "rangeBar";
     width?: string | number,
+    title: string
 }
 
 export class App extends StreamlitComponentBase {
@@ -52,13 +53,13 @@ export class App extends StreamlitComponentBase {
         const evalStringToFunctionDeepMap = (obj: object) => {
             return deepMap(obj, evalStringToFunction, {})
         }
-        const {options, series, types, width}: ApexArgs = this.props.args
+        const {options, series, types, width, title}: ApexArgs = this.props.args
         const cleanOptions = evalStringToFunctionDeepMap(options)
 
         return (
             <div className="card">
                 <div className="card-body">
-                    <h5 className="card-title"></h5>
+                    <h5 className="card-title">{title}</h5>
                     <div className="app">
                         <div className="row">
                             <div className="mixed-chart">

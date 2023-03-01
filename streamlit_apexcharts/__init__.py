@@ -16,6 +16,6 @@ else:
     _component_func = components.declare_component("st_apexcharts", path=build_dir)
 
 
-def st_apexcharts(options: Dict, series: list, types, width):
-    component_value = _component_func(options=options, series=series, types=types, width=width)
+def st_apexcharts(options: Dict, series: list, types, width, title = ""):
+    component_value = _component_func(options=options, series=series, types=types, width=width, title=title)
     return component_value
