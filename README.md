@@ -2,6 +2,8 @@
 
 A Streamlit simple component to display [ApexChart](https://apexcharts.com/).
 
+![](./img/demo.png)
+
 ## Usage
 ```python
 from streamlit_apexcharts import st_apexcharts
