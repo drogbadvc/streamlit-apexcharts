@@ -1,0 +1,58 @@
+{
+  "name": "streamlit_apexchartreact",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^24.0.0",
+    "@types/lodash": "^4.14.149",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0n",
+    "@types/react-dom": "^18.0.11",
+    "apache-arrow": "^0.16.0",
+    "apexcharts": "^3.37.1",
+    "formik": "^2.1.5",
+    "lodash": "^4.17.21",
+    "node-sass": "^8.0.0",
+    "react": "^16.14.0",
+    "react-apexcharts": "^1.4.0",
+    "react-dom": "^16.14.0",
+    "react-scripts": "^4.0.1",
+    "reactstrap": "^8.4.1",
+    "streamlit-component-lib": "^1.1.1",
+    "styletron-engine-atomic": "^1.4.6",
+    "styletron-react": "^5.2.7",
+    "typescript": "^3.4.2",
+    "yup": "^0.29.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": ".",
+  "devDependencies": {
+    "@types/hoist-non-react-statics": "^3.3.1",
+    "@types/styletron-engine-atomic": "^1.1.0",
+    "@types/styletron-react": "^5.0.2",
+    "@types/styletron-standard": "^2.0.0",
+    "prettier": "^2.0.4"
+  }
+}
