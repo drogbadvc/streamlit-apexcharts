@@ -2,7 +2,7 @@
 
 A Streamlit simple component to display [ApexChart](https://apexcharts.com/).
 
-![](./img/demo.png)
+![](./img/demo2.png)
 
 ## Install
 
@@ -30,7 +30,7 @@ options = {
 
 series = [44, 55, 41, 17, 15]
 
-st_apexcharts(options, series, 'donut', '600')
+st_apexcharts(options, series, 'donut', '600', 'title')
 ```
 
 ### st_apexcharts params
@@ -42,6 +42,7 @@ st_apexcharts(
     series: List
     type: str
     width: str, number
+    title: str
 )
 ```
 

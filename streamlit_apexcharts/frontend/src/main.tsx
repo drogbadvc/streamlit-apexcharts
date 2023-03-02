@@ -61,7 +61,7 @@ export class App extends StreamlitComponentBase {
                 <div className="card-body">
                     <h5 className="card-title">{title}</h5>
                     <div className="app">
-                        <div className="row">
+                        <div className="row d-flex justify-content-center">
                             <div className="mixed-chart">
                                 <Chart
                                     options={cleanOptions}

@@ -15,7 +15,7 @@ def readme() -> str:
 
 setuptools.setup(
     name="streamlit_apexjs",
-    version="0.0.2",
+    version="0.0.3",
     author="Andell",
     author_email="drogadvc@gmail.com",
     description="streamlit_apexcharts React component for Streamlit",
